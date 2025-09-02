@@ -7,7 +7,7 @@ st.title("Weather App 🌥️")
 # city = st.selectbox("Chose a city", listofcities)
 city = st.text_input("Enter a City name : ", value="Kenitra")
 
-API_KEY = "607329ffe9dde394d39e8fa78784fcab"
+API_KEY = "your_api_key_here"
 
 if city:
     url = "https://api.openweathermap.org/data/2.5/weather"
@@ -85,4 +85,5 @@ if city:
             st.error("Forecast data not available")
 
     else:
+
         st.error("City not found! Please try again.")
