@@ -34,3 +34,23 @@ Users can search for any city to instantly see temperature, humidity, wind speed
 3. Run the app:
    `
   streamlit run app.py`
+
+## 🔑 API Key Setup
+
+This app uses the OpenWeatherMap API.
+
+Create a free account on OpenWeatherMap
+.
+
+Get your API key.
+
+Replace "your_api_key_here" in app.py with your key.
+
+## 📸 Screenshot
+
+<img width="1037" height="730" alt="image" src="https://github.com/user-attachments/assets/d171189e-7184-40cc-86bc-0e8c7b8f6521" />
+
+
+## 📜 License
+
+This project is open-source and free to use.
