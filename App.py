@@ -3,8 +3,6 @@ import requests
 import datetime 
 
 st.title("Weather App 🌥️")
-#listofcities = ["Rabat", "Kenitra", "Tiflet"]
-# city = st.selectbox("Chose a city", listofcities)
 city = st.text_input("Enter a City name : ", value="Kenitra")
 
 API_KEY = "your_api_key_here"
@@ -87,3 +85,4 @@ if city:
     else:
 
         st.error("City not found! Please try again.")
+
