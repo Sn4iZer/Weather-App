@@ -26,7 +26,7 @@ Users can search for any city to instantly see temperature, humidity, wind speed
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/Sn4iZer/weather-app.git
    cd weather-app
 2. Install dependencies:
   ```bash
