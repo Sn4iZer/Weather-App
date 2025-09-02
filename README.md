@@ -29,11 +29,13 @@ Users can search for any city to instantly see temperature, humidity, wind speed
    git clone https://github.com/yourusername/weather-app.git
    cd weather-app
 2. Install dependencies:
-  `
-  pip install -r requirements.txt`
+  ```bash
+  pip install -r requirements.txt
+```
 3. Run the app:
-   `
-  streamlit run app.py`
+```bash
+  streamlit run app.py
+```
 
 ## 🔑 API Key Setup
 
